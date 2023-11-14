@@ -1,9 +1,11 @@
+package twoSum;
+
 import java.util.HashMap;
 
 /***
  * 1. 两数之和
  */
-class Solution {
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
         //我的思路：
         // 1.转升序数组，固定第一个加数，往后找第二个加数，遇到两数和大于target的，第一个加数位置往后移（未实现）
