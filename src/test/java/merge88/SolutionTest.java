@@ -1,10 +1,8 @@
-package merge;
+package merge88;
 
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
     @Test

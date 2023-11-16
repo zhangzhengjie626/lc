@@ -1,4 +1,4 @@
-package merge;
+package merge88;
 
 /**
  * 88. 合并两个有序数组
