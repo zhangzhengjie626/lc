@@ -12,26 +12,20 @@ public class Solution {
         // 上边的值表示前几天买，今天直接卖，就一次，
         //左边的值，表示前几天有买有卖到前一天的最大利润，不确定想的对不对，试一下，不行就看题解
 
+        //不太对，但是歪打正着，周末看题解把这种类型的题目，都过一下吧
+
 
         //寄：199/200的时候，最后一个判例，超出内存限制，还得优化，基本思路是ok的。
-        int[][] res = new int[prices.length][prices.length];
+        //只能用一维的数组
+        int[] res = new int[prices.length];
         //防止边界问题，先全部赋值0
         for (int i = 0; i < prices.length; i++) {
-            for (int j = 0; j < prices.length; j++) {
-                res[i][j] = 0;
-            }
+            //初始化第一行数据
+                res[i] = Math.max(0, prices[i] - prices[0]);
         }
-        for (int i = 0; i < prices.length; i++) {
-            for (int j = i; j < prices.length; j++) {
-                if (i == 0){
-                    //初始化第一行
-                    res[i][j] = Math.max(0, prices[j] - prices[i]);
-                } else {
-                    res[i][j] = Math.max(res[i][j - 1] + Math.max(0, prices[j] - prices[j - 1]), res[i - 1][j]);
-                }
-
-            }
+        for (int i = 1; i < prices.length; i++) {
+            res[i] = Math.max(res[i - 1] + Math.max(0, prices[i] - prices[i - 1]), res[i]);
         }
-        return res[prices.length - 1][prices.length - 1];
+        return res[prices.length - 1];
     }
 }
