@@ -1,8 +1,7 @@
 package strStr28;
 
+import Week2.strStr28.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

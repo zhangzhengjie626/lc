@@ -1,8 +1,7 @@
 package romanToInt13;
 
+import Week2.romanToInt13.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

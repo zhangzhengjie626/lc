@@ -1,8 +1,7 @@
 package reverseWords151;
 
+import Week2.reverseWords151.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

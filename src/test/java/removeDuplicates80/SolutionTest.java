@@ -1,5 +1,6 @@
 package removeDuplicates80;
 
+import Week1.removeDuplicates80.Solution;
 import org.junit.Test;
 
 

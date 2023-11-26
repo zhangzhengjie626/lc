@@ -1,8 +1,7 @@
 package canJump55;
 
+import Week2.canJump55.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

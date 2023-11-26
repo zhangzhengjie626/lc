@@ -1,10 +1,7 @@
 package lengthOfLastWord58;
 
+import Week2.lengthOfLastWord58.Solution;
 import org.junit.Test;
-
-import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

@@ -1,5 +1,6 @@
 package maxProfit121;
 
+import Week2.maxProfit121.Solution;
 import org.junit.Test;
 
 

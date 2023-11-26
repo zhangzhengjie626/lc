@@ -1,5 +1,6 @@
 package removeElement27;
 
+import Week1.removeElement27.Solution;
 import org.junit.Test;
 
 

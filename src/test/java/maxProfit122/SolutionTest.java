@@ -1,8 +1,7 @@
 package maxProfit122;
 
+import Week2.maxProfit122.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

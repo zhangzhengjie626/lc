@@ -1,5 +1,6 @@
 package majorityElement169;
 
+import Week1.majorityElement169.Solution;
 import org.junit.Test;
 
 

@@ -1,8 +1,7 @@
 package longestCommonPrefix14;
 
+import Week2.longestCommonPrefix14.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 
