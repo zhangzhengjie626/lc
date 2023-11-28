@@ -1,8 +1,6 @@
-package Week3.isSubsequence;
+package Week3.isSubsequence392;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

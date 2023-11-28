@@ -1,4 +1,4 @@
-package Week3.isSubsequence;
+package Week3.isSubsequence392;
 
 /**
  * 392.判断子序列

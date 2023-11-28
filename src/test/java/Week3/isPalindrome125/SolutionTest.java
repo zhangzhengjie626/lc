@@ -1,8 +1,6 @@
-package Week3.isPalindrome;
+package Week3.isPalindrome125;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 
