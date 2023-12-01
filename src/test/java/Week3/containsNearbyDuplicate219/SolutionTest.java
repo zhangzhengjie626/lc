@@ -1,4 +1,4 @@
-package Week3.containsNearbyDuplicate;
+package Week3.containsNearbyDuplicate219;
 
 import org.junit.Test;
 
