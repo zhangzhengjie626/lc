@@ -4,6 +4,9 @@ import java.sql.Array;
 import java.util.*;
 import java.util.stream.Stream;
 
+/**
+ * https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-interview-150
+ */
 public class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> resMap = new HashMap<>();
