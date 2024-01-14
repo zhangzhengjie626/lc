@@ -21,7 +21,7 @@ public class Solution {
         if (i < grid.length && i >= 0 && j >= 0 && j < grid[0].length) {
             if (grid[i][j] == '1') {
                 grid[i][j] = '0';
-                //为什么是4个方向，不是8个方向？4个方向就可以覆盖全部格子
+                //并且每座岛屿只能由水平方向和/或竖直方向上相邻的陆地连接形成。
                 dfs(i - 1, j, grid);
                 dfs(i, j - 1, grid);
                 dfs(i + 1, j, grid);
