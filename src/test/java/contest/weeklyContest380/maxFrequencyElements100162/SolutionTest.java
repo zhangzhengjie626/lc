@@ -1,4 +1,4 @@
-package contest.The380th.maxFrequencyElements100162;
+package contest.weeklyContest380.maxFrequencyElements100162;
 
 import org.junit.Test;
 

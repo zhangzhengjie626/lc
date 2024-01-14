@@ -1,4 +1,4 @@
-package contest.The380th.findMaximumNumber100160;
+package contest.weeklyContest380.findMaximumNumber100160;
 
 public class Solution {
     public long findMaximumNumber(long k, int x) {

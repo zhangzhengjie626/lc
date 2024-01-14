@@ -1,4 +1,4 @@
-package contest.The380th.beautifulIndices100165;
+package contest.weeklyContest380.beautifulIndices100165;
 
 import java.util.ArrayList;
 import java.util.List;
