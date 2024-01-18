@@ -42,5 +42,26 @@ public class Solution {
         }
         return null;
     }
+    //超出内存限制 寄
+
+
+    //学习了大神的写法
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
+
+        if (left != null && right != null) {
+            return root;
+        } else if (left != null) {
+            return left;
+        } else if (right != null) {
+            return right;
+        } else {
+            return null;
+        }
+    }
+    //感觉就很妙，没做过真的想不到这种方式
 }
-//超出内存限制 寄
