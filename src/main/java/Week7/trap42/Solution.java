@@ -26,3 +26,4 @@ public class Solution {
         return ans;
     }
 }
+//left==right的时候，实际是到了最高点，或者相对最高点，导致当前ans一定是0

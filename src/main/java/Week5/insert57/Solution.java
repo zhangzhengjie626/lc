@@ -42,8 +42,10 @@ public class Solution {
         if (left < right) {
             //自己排一下
             int loc = left;
-            for (int i = left; i < right; i++) {
+            //从left+1开始
+            for (int i = left + 1; i < right; i++) {
                 if (intervals[i][0] < intervals[loc][0]) {
+                    loc++;
                     //交换
                     int tmp0 = intervals[i][0];
                     intervals[i][0] = intervals[loc][0];
@@ -52,12 +54,18 @@ public class Solution {
                     int tmp1 = intervals[i][1];
                     intervals[i][1] = intervals[loc][1];
                     intervals[loc][1] = tmp1;
-                    loc++;
+
                 }
             }
-            //这个地方是不是有问题，有点麻烦的
-            //loc==left的时候，不能减
-            loc = loc == left ? loc : loc-1;
+            //
+            int tmp0 = intervals[left][0];
+            intervals[left][0] = intervals[loc][0];
+            intervals[loc][0] = tmp0;
+
+            int tmp1 = intervals[left][1];
+            intervals[left][1] = intervals[loc][1];
+            intervals[loc][1] = tmp1;
+
             //左边排一下
             quickSort(left, loc, intervals);
             //右边排一下
@@ -65,3 +73,4 @@ public class Solution {
         }
     }
 }
+//如果不换 loc就是最小值，如果换了，loc还是最小值，统一了，和之前换+1，不换是原地两种情况区别开来
