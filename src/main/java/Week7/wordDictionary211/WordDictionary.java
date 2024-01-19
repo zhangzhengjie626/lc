@@ -25,26 +25,31 @@ public class WordDictionary {
     }
 
     public boolean search(String word) {
-        WordDictionary cur = this;
-        for (int i = 0; i < word.length(); i++) {
-            if (word.charAt(i) != '.') {
-                int index = word.charAt(i) - 'a';
+        return dfs(word, 0, this);
+    }
+
+    private boolean dfs(String word, int loc, WordDictionary cur) {
+        //当前单词遍历完了，判断是否isEnd
+        if (loc == word.length()) {
+            return cur.isEnd;
+        } else {
+            if (word.charAt(loc) != '.') {
+                int index = word.charAt(loc) - 'a';
                 if (cur != null && cur.node[index] != null) {
-                    cur = cur.node[index];
+                    return dfs(word, loc + 1, cur.node[index]);
                 } else {
+                    //遇到null直接false
                     return false;
                 }
             } else {
-                for (int j = 0; j < 26; j++) {
-                    boolean tmp;
-                    if (cur != null && cur.node[j] != null) {
-                        //怎么递归呢？好吧，得另外写一个方法？晚上再写吧
-                        cur.search()
+                boolean tmp = false;
+                for (int i = 0; i < 26; i++) {
+                    if (cur != null && cur.node[i] != null) {
+                        tmp = tmp || dfs(word, loc + 1, cur.node[i]);
                     }
                 }
+                return tmp;
             }
-
         }
-        return cur.isEnd;
     }
 }
