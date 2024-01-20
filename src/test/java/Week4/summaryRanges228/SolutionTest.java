@@ -1,5 +1,6 @@
 package Week4.summaryRanges228;
 
+import TopInterview150.Week4.summaryRanges228.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

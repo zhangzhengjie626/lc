@@ -1,6 +1,6 @@
 package Week2.canJump55;
 
-import Week2.canJump55.Solution;
+import TopInterview150.Week2.canJump55.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

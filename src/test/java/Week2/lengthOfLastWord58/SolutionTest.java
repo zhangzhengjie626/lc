@@ -1,6 +1,6 @@
 package Week2.lengthOfLastWord58;
 
-import Week2.lengthOfLastWord58.Solution;
+import TopInterview150.Week2.lengthOfLastWord58.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

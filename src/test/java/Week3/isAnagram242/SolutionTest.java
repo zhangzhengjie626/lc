@@ -1,5 +1,6 @@
 package Week3.isAnagram242;
 
+import TopInterview150.Week3.isAnagram242.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

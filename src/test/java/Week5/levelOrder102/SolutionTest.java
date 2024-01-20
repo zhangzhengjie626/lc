@@ -1,9 +1,8 @@
 package Week5.levelOrder102;
 
 import Common.TreeNode;
+import TopInterview150.Week5.levelOrder102.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

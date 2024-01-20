@@ -1,5 +1,6 @@
 package Week3.canConstruct383;
 
+import TopInterview150.Week3.canConstruct383.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

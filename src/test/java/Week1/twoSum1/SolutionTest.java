@@ -1,6 +1,6 @@
 package Week1.twoSum1;
 
-import Week1.twoSum1.Solution;
+import TopInterview150.Week1.twoSum1.Solution;
 import org.junit.Test;
 
 import java.util.Arrays;

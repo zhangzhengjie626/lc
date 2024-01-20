@@ -1,5 +1,6 @@
 package Week4.singleNumber136;
 
+import TopInterview150.Week4.singleNumber136.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

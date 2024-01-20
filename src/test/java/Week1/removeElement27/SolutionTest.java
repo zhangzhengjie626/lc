@@ -1,6 +1,6 @@
 package Week1.removeElement27;
 
-import Week1.removeElement27.Solution;
+import TopInterview150.Week1.removeElement27.Solution;
 import org.junit.Test;
 
 

@@ -1,5 +1,6 @@
 package Week3.wordPattern290;
 
+import TopInterview150.Week3.wordPattern290.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

@@ -1,5 +1,6 @@
 package Week3.isSubsequence392;
 
+import TopInterview150.Week3.isSubsequence392.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

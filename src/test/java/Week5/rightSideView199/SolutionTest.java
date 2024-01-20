@@ -1,10 +1,8 @@
 package Week5.rightSideView199;
 
 import Common.TreeNode;
+import TopInterview150.Week5.rightSideView199.Solution;
 import org.junit.Test;
-import sun.reflect.generics.tree.Tree;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

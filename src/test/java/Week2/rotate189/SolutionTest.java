@@ -1,6 +1,6 @@
 package Week2.rotate189;
 
-import Week2.rotate189.Solution;
+import TopInterview150.Week2.rotate189.Solution;
 import org.junit.Test;
 
 import java.util.Arrays;

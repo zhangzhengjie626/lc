@@ -1,6 +1,6 @@
 package Week2.strStr28;
 
-import Week2.strStr28.Solution;
+import TopInterview150.Week2.strStr28.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

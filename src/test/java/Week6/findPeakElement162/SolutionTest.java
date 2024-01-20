@@ -1,5 +1,6 @@
 package Week6.findPeakElement162;
 
+import TopInterview150.Week6.findPeakElement162.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

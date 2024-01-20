@@ -1,6 +1,6 @@
 package Week1.merge88;
 
-import Week1.merge88.Solution;
+import TopInterview150.Week1.merge88.Solution;
 import org.junit.Test;
 
 import java.util.Arrays;

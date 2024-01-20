@@ -1,6 +1,7 @@
 package Week6.rotateRight61;
 
 import Common.ListNode;
+import TopInterview150.Week6.rotateRight61.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

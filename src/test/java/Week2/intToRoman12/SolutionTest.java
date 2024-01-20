@@ -1,6 +1,6 @@
 package Week2.intToRoman12;
 
-import Week2.intToRoman12.Solution;
+import TopInterview150.Week2.intToRoman12.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

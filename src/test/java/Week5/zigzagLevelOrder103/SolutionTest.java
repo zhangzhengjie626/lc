@@ -1,9 +1,8 @@
 package Week5.zigzagLevelOrder103;
 
 import Common.TreeNode;
+import TopInterview150.Week5.zigzagLevelOrder103.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

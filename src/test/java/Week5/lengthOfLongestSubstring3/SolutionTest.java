@@ -1,5 +1,6 @@
 package Week5.lengthOfLongestSubstring3;
 
+import TopInterview150.Week5.lengthOfLongestSubstring3.Solution;
 import org.junit.Test;
 
 

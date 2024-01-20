@@ -1,8 +1,7 @@
 package Week5.singleNumber137;
 
+import TopInterview150.Week5.singleNumber137.Solution;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

@@ -1,6 +1,6 @@
 package Week2.longestCommonPrefix14;
 
-import Week2.longestCommonPrefix14.Solution;
+import TopInterview150.Week2.longestCommonPrefix14.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

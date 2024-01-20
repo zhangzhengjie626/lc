@@ -1,5 +1,6 @@
 package Week7.trap42;
 
+import TopInterview150.Week7.trap42.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

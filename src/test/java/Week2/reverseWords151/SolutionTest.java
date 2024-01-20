@@ -1,6 +1,6 @@
 package Week2.reverseWords151;
 
-import Week2.reverseWords151.Solution;
+import TopInterview150.Week2.reverseWords151.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

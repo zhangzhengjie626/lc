@@ -1,5 +1,6 @@
 package Week3.isValid20;
 
+import TopInterview150.Week3.isValid20.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

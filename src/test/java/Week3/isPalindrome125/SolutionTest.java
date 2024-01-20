@@ -1,5 +1,6 @@
 package Week3.isPalindrome125;
 
+import TopInterview150.Week3.isPalindrome125.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

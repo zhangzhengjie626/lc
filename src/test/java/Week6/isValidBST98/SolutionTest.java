@@ -1,6 +1,7 @@
 package Week6.isValidBST98;
 
 import Common.TreeNode;
+import TopInterview150.Week6.isValidBST98.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

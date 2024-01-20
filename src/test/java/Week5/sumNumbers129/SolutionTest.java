@@ -1,11 +1,8 @@
 package Week5.sumNumbers129;
 
 import Common.TreeNode;
+import TopInterview150.Week5.sumNumbers129.Solution;
 import org.junit.Test;
-
-import javax.transaction.TransactionRequiredException;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
     @Test

@@ -1,5 +1,6 @@
 package Week3.isIsomorphic205;
 
+import TopInterview150.Week3.isIsomorphic205.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

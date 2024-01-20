@@ -1,5 +1,6 @@
 package Week3.containsNearbyDuplicate219;
 
+import TopInterview150.Week3.containsNearbyDuplicate219.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

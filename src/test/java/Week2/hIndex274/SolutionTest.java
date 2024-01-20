@@ -1,6 +1,6 @@
 package Week2.hIndex274;
 
-import Week2.hIndex274.Solution;
+import TopInterview150.Week2.hIndex274.Solution;
 import org.junit.Test;
 
 

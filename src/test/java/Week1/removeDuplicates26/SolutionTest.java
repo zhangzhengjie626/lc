@@ -1,6 +1,6 @@
 package Week1.removeDuplicates26;
 
-import Week1.removeDuplicates26.Solution;
+import TopInterview150.Week1.removeDuplicates26.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

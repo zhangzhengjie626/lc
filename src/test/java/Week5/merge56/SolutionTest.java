@@ -1,10 +1,9 @@
 package Week5.merge56;
 
+import TopInterview150.Week5.merge56.Solution;
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 public class SolutionTest {
 

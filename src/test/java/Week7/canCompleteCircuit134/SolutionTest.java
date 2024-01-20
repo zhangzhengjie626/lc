@@ -1,5 +1,6 @@
 package Week7.canCompleteCircuit134;
 
+import TopInterview150.Week7.canCompleteCircuit134.Solution;
 import org.junit.Test;
 
 public class SolutionTest {

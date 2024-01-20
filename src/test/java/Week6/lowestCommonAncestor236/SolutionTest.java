@@ -1,6 +1,7 @@
 package Week6.lowestCommonAncestor236;
 
 import Common.TreeNode;
+import TopInterview150.Week6.lowestCommonAncestor236.Solution;
 import org.junit.Test;
 
 public class SolutionTest {
