@@ -8,7 +8,7 @@ public class Solution {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            //左边区间升序
+            //左边区间升序  =的情况 如果最后收缩到[7,0],需要找0的位置因此left = mid + 1
             if (nums[mid] >= nums[0]) {
                 left = mid + 1;
             } else {
