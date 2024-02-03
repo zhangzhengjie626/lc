@@ -15,6 +15,7 @@ public class Solution {
 //        res[3] = true;
 //        for (int i = 4; i <= n; i++) {
 //            res[i] = !res[i - 1] || !res[i - 2] || !res[i - 3];
+        //这个地方的想法是，res[i]只能由res[i - 1] res[i - 2] res[i - 3] 三个状态转移过来，这三个状态中只要有一个是false res[i]就是true
 //        }
 //        return res[n];
         return n % 4 != 0;
